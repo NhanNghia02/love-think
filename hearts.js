@@ -74,7 +74,7 @@ setInterval(() => {
 
 Heart.prototype.draw = function (i) {
     ctx.globalAlpha = this.opacity;
-    ctx.font = `${100 * this.scale}px "Verdana"`;
+    ctx.font = `${180 * this.scale}px "Verdana"`;
     ctx.fillStyle = colors[i % colors.length];
     ctx.fillText(
         texts[currentTextIndex],
